@@ -1,0 +1,61 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            font: 16px sans-serif;
+        }
+        .card-container{
+            display: flex;
+            gap: 16px;
+            width: 390px;
+            overflow: hidden;
+        }
+        .card-item{
+            width: 80%;
+            flex-shrink: 0;
+            height: auto;
+        }
+        .image-box{
+            position: relative;
+        }
+        img{
+            height: 50vh;
+            object-fit: cover;
+            /* object-position: bottom; */
+        }
+        .badge-container{
+            display: flex;
+            top: 24px;
+            left: 24px;
+            gap: 8px;
+            position: absolute;
+            background-color: aliceblue;
+        }
+        .badge{
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            width: auto;
+        }
+        .badge-best{
+            background-color: blue;
+        }
+        .badge-new{
+            background-color: blueviolet;
+        }
+        img {
+            width: 100%;
+        }
+        h1{
+            font-size: 1.5rem;
+        }
+        .distillery-name {
+            font-size: 0.875rem;
+            padding-bottom: 8px;
+        }
+        p{
+            font-size: 1rem;
+        }
