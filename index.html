@@ -7,49 +7,61 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: "Noto Sans KR", sans-serif;
+        }
+        .item-container{
+            width: 480px;
+            background-color: aqua;
+            padding: 20px;
+        }
+        img{
+            width: 100%;
+        }
+        .image-box{
+            margin-bottom: 24px;
+            position: relative;
+        }
+        .badge-box{
+            display: flex;
+            gap: 8px;
+            position: absolute;
+            top: 12px;
+            left: 12px;
+        }
+        .badge{
+            padding: 6px 12px;
+            border: 1px solid;
+            color: #ffffff;
+            border-radius: 100px;
+        }
+        .title-box{
+            background-color: blanchedalmond;
+            margin-bottom: 24px;
+        }
+        .price-box{
+            background-color: aquamarine;
+        }
+    </style>
 </head>
 <body>
-    <div class="card-container">
-        <div class="card-item">
-            <div class="image-box">
-                <div class="badge-container">
-                    <div class="badge badge-best">
-                    badge
-                    </div>
-                    <div class="badge badge-new">
-                        badge
-                    </div>
-                </div>
-                <img src="img-1.jpg" alt="주만사기업발표회">
+    <div class="item-container">
+        <div class="image-box">
+            <div class="badge-box">
+                <div class="badge badge-1">뱃지1</div>
+                <div class="badge badge-2">뱃지2</div>
             </div>
-            <h1>
-                <div class="distillery-name">
-                    [백경증류소]
-                </div>
-                거대한 바다를 헤엄치는 고래처럼
-            </h1>
-            <p>백경증류소는 어쩌구</p>
+            <img src="img-1.jpg" alt="매월매주 3종 패키지 모습">
         </div>
-        <div class="card-item">
-            <div class="image-box">
-                <div class="badge-container">
-                    <div class="badge badge-best">
-                    badge
-                    </div>
-                    <div class="badge badge-new">
-                        badge
-                    </div>
-                </div>
-                <img src="img-2.jpg" alt="주만사기업발표회">
-            </div>
-            <h1>
-                <div class="distillery-name">
-                    [백경증류소]
-                </div>
-                거대한 바다를 헤엄치는 고래처럼
-            </h1>
-            <p>백경증류소는 어쩌구</p>
+        <div class="title-box">
+            <h1>매월한잔 3종 박스</h1>
+            <p>미니어쳐 바틀 3종 + 큐레이션 카드</p>
+        </div>
+        <div class="price-box">
+            25,900원 / 월
         </div>
     </div>
 </body>
