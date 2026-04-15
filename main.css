@@ -3,14 +3,17 @@
             margin: 0;
             padding: 0;
         }
-        html{
+        :root{
             font: 16px sans-serif;
+            font-family: "Noto Sans KR", sans-serif;
         }
         .card-container{
             display: flex;
             gap: 16px;
-            width: 390px;
+            width: 100vw;
+            max-width: 450px;
             overflow: hidden;
+            margin: 0 auto;
         }
         .card-item{
             width: 80%;
